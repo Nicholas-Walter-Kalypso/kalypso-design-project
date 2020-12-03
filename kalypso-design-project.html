@@ -19,49 +19,75 @@
             font-family: Anton;
             font-size: 64px;
             font-weight: bold;
-            display: flex;
-            flex-direction: row;
         }
         h2 {
             font-family: Anton;
             font-size: 48px;
             font-weight: bold;
         }
+        /*.dot {*/
+        /*    height: 105px;*/
+        /*    width: 105px;*/
+        /*    background-color: #bbb;*/
+        /*    border-radius: 50%;*/
+        /*    display: inline-block;*/
+        /*    }*/
+        .circle {
+            background: red;
+            border-radius: 200px;
+            color: white;
+            height: 105px;
+            font-weight: bold;
+            width: 105px;
+            display: table;
+            margin: 20px;
+        }
+        .block {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .circle p {
+            vertical-align: middle;
+            display: table-cell;
+        }
     </style>
 </head>
 
 <body>
+<!--<div class="jumbotron text-center">-->
+<!--    <div>-->
+<!--        <img src="img/logo.png" height="105" width="105"/>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--    <h1 class="display-4 text-center" style="font-family: Abel, sans-serif">codeup design</h1>-->
+<!--        </div>-->
+<!--            &lt;!&ndash;    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>&ndash;&gt;-->
+<!--&lt;!&ndash;    <hr class="my-4">&ndash;&gt;-->
+<!--        </div>-->
+<div>
+    <h1 class="header text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
 
-<div class="jumbotron text-center" >
-    <div>
-        <img src="img/logo.png" height="105" width="105"/></div>
-    <h1 class="display-4" style="font-family: Abel, sans-serif">codeup design</h1>
-<!--    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>-->
-<!--    <hr class="my-4">-->
-
 </div>
 <div>
-    <h1 class="header">VISUAL DESIGN &</h1>
-</div>
-<div>
-    <h1 class="header">WEB DEVELOPMENT</h1>
-</div>
-<div>
-    <h2 class="header">FROM PARK CITY, UTAH</h2>
+    <h2 class="header text-center">FROM PARK CITY, UTAH</h2>
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-3 bg-primary">
-            <p>A</p>
+        <div class="col-md-4 block">
+            <div class="circle bg-primary"><p>Design</p></div>
+<!--            <span class="dot bg-red">Design</span>-->
         </div>
-        <div class="col-3">
-            <p>B</p>
+        <div class="col-md-4 block">
+            <div class="circle bg-primary"><p>Develop</p></div>
+            <!--            <span class="dot bg-red">Design</span>-->
         </div>
-        <div class="col-3">
-            <p>Sit quibusdam dolorum delectus ducimus consequatur ullam cupiditate quia sit, laboriosam distinctio distinctio est blanditiis vitae laudantium dolore? Tempore doloremque aspernatur repellat consectetur sit vero velit possimus suscipit? Odit doloremque?</p>
+        <div class="col-md-4 block">
+            <div class="circle bg-primary"><p>Support</p></div>
+            <!--            <span class="dot bg-red">Design</span>-->
         </div>
-        <div class="col-3">
-            <p>Consectetur doloribus dolor quia iste sint! Totam suscipit possimus deserunt adipisci beatae? Mollitia explicabo voluptates hic delectus voluptates commodi necessitatibus perferendis. Rem ipsam itaque illo perspiciatis illo doloribus. Enim iste.</p>
+        <div class="col-md-4 block">
+            <div class="circle bg-primary"><p>Host</p></div>
+            <!--            <span class="dot bg-red">Design</span>-->
         </div>
     </div>
 </div>
