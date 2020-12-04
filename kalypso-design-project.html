@@ -43,6 +43,7 @@
             font-weight: bold;
             width: 105px;
             display: table;
+
         }
         .block {
             max-width: 105px;
@@ -61,6 +62,18 @@
             border-radius: 50%;
             display: inline-block;
             text-align: center;
+        }
+
+        .rounded-circle{
+
+            height: 105px;
+            width: 105px;
+            padding-top: 36px;
+            border-color: #f0f0f0;
+            border-width: 5px;
+            border-style: solid;
+            color: white;
+
         }
     </style>
 </head>
@@ -82,26 +95,54 @@
 <div>
     <h2 class="header text-center">FROM PARK CITY, UTAH</h2>
 </div>
-<div class="container">
+
+
+<!--FAILED CODE-->
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--&lt;!&ndash;        <div class="col-4 d-flex justify-content-center">&ndash;&gt;-->
+<!--            <div class="col-6 col-lg-3 block ">-->
+<!--                <div class="circle " style="background-color: #e6563b"><p>Design</p></div>-->
+
+<!--                </div>-->
+<!--            <div class="col-6 col-lg-3 block ">-->
+<!--                <div class="circle" style="background-color: #dea03d"><p>Develop</p></div>-->
+
+<!--                </div>-->
+<!--            <div class="col-6 col-lg-3 block">-->
+<!--                <div class="circle"  style="background-color: #7cb06c"><p>Support</p></div>-->
+
+<!--            </div>-->
+<!--            <div class="col-6 col-lg-3 block">-->
+<!--                <div class="circle" style="background-color: #00aba9"><p>Host</p></div>-->
+
+<!--            </div>-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--trail container-->
+<div class="container offset-md-4">
     <div class="row">
-        <div class="col-6 col-lg-3 block">
-            <div class="circle" style="background-color: #e6563b"><p>Design</p></div>
+        <div class="col-6 col-lg-3  ">
+            <div class="rounded-circle text-center " style="background-color: #e6563b"><p>Design</p></div>
 
         </div>
-        <div class="col-6 col-lg-3 block">
-            <div class="circle" style="background-color: #dea03d"><p>Develop</p></div>
+        <div class="col-6 col-lg-3  ">
+            <div class="rounded-circle text-center " style="background-color: #dea03d"><p>Develop</p></div>
 
         </div>
-        <div class="col-6 col-lg-3 block">
-            <div class="circle"  style="background-color: #7cb06c"><p>Support</p></div>
+        <div class="col-6 col-lg-3 ">
+            <div class="rounded-circle text-center "  style="background-color: #7cb06c"><p>Support</p></div>
 
         </div>
-        <div class="col-6 col-lg-3 block">
-            <div class="circle" style="background-color: #00aba9"><p>Host</p></div>
+        <div class="col-6 col-lg-3 ">
+            <div class="rounded-circle text-center " style="background-color: #00aba9"><p>Host</p></div>
 
         </div>
     </div>
 </div>
+
 
         <div class="text mt-5">
             <p class="text-center">
@@ -126,7 +167,7 @@
 
         </div>
     </div>
-<div class="d-sm-none"
+<div class="d-none">
 <div class="container">
     <div class="row align-items-center">
         <div class="col-12" style="margin: inherit">
@@ -145,7 +186,7 @@
     </div>
     </div>
 </div>
-
+<div class="d-none">
 <div class="container">
     <div class="row align-items-center">
         <div class="col-12" style="margin: inherit">
@@ -164,6 +205,8 @@
 
     </div>
 </div>
+</div>
+<div class="d-none">
 <div class="container">
     <div class="row align-items-center">
         <div class="col-12" style="margin: inherit">
@@ -181,6 +224,7 @@
         </div>
 
     </div>
+</div>
 </div>
 </body>
 
